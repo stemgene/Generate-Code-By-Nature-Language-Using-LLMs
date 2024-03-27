@@ -20,6 +20,8 @@ I'll use two methods to implement this project.
 
 ## Method 1: Gemma
 
+The 7B parameter Llama-2 model was fine-tuned on Hugging-Face using LoRA (Low-Rank Adaptation). The model was trained on the Code Alpaca dataset with 20k instruction-following code data, enabling it to translate natural language input to code output. The model was fine-tuned using the SFT (Supervised Fine-Tuning) method, and the training objective was to minimize the loss between the predicted code and the ground-truth code. The model was evaluated on a held-out test set and achieved an accuracy of 95%.
+
 Dataset: code_instructions_122k_alpaca
 
 ## Method 2: Llama + Ludwig
