@@ -18,9 +18,13 @@ for i in range(10):
 
 I'll use two methods to implement this project.
 
-## Method 1: 
+## Method 1: Gemma
 
-## Method 2: Using Ludwig
+Dataset: code_instructions_122k_alpaca
+
+## Method 2: Llama + Ludwig
+
+Dataset: code_alpaca_20k
 
 key aspects:
 
